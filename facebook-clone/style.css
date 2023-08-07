@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(230, 235, 255);
+}
+/* header */
+#fb-header {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(59, 89, 152, 255);
+}
+
+.logo {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 32px;
+
+}
+
+#form {
+    display: flex;
+    position: absolute;
+    right: 120px;
+    top: 0;
+    letter-spacing: 1px;
+}
+
+#form1 {
+    margin: 10px;
+}
+
+.font {
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+
+}
+
+#form1 input[type='email'] {
+    width: 170px;
+    border: none;
+    border-radius: 1px;
+    padding: 3px;
+}
+
+#form1 input[type='password'] {
+    width: 170px;
+    border: none;
+    border-radius: 1px;
+    padding: 3px;
+}
+
+input[type='submit'] {
+    position: absolute;
+    border: 1px solid #0055ffb4;
+    border-radius: 3px;
+    right: 40px;
+    top: 25px;
+    background: #1950be;
+    padding: 1px 20px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* body */
+#fb-body {
+    font-family: 'Manrope', sans-serif;
+    margin: 60px;
+
+}
+
+.intro1 {
+    color: #0e385f;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 100;
+
+}
+
+#fb-body img {
+    margin-top: 16px;
+    width: 67vh;
+}
+
+#form3 {
+    width: 100%;
+    margin: 60px;
+}
+
+.intro2 {
+    font-family: 'Manrope', sans-serif;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 900;
+}
+
+.intro3 {
+    position: absolute;
+    left: 700px;
+    top: 160px;
+    font-size: 12px;
+    margin-top: 13px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 400;
+}
+/* login-form */
+.login-form {
+    position: absolute;
+    left: 700px;
+    top: 160px;
+    margin-top: 60px;
+
+}
+
+.name input {
+    border: 1px solid #bfc8d9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.name input[type='text'] {
+    width: 130px;
+}
+
+.name input[type='email-number'] {
+    width: 290px;
+}
+
+.name input[type='password'] {
+    width: 290px;
+}
+
+.intro4 h3 {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    color: #939cac;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.intro4 input[type='date'] {
+    width: 120px;
+    padding: 8px;
+    border: 1px solid #bfc8d9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon-1 {
+    position: absolute;
+    left: 150px;
+    top: 190px;
+    background-image: url(assets/images/icon-question.png);
+    background-size: cover;
+    width: 21px;
+    height: 21px;
+}
+
+.icon-2 {
+    position: absolute;
+    left: 265px;
+    top: 252px;
+    background-image: url(assets/images/icon-question.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.intro4 input[type='radio'] {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.gender {
+    color: #000;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login-form h5 {
+    color: #474747;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+
+}
+
+.login-form h5 span {
+    text-decoration: underline;
+    color:#1950be;
+    cursor: pointer;
+}
+
+.sign-up {
+    border: 1px solid #b2c4de;
+    border-radius: 5px;
+    background-color: rgba(95, 155, 76, 255);
+    padding: 10px 40px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100px;
+    box-shadow: #000 10;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* footer */
+.copyright{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    border-top: 1px solid rgb(136, 131, 131);
+    width: 500px;
+    color: #474747;
+    padding-top: 10px;
+}
+.copyright span{
+    color: #1950be;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.copyright .symbol{
+    text-decoration: none;
+}
